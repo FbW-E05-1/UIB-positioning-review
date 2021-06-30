@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: ;
+}
+
+code {
+  font-size: 120%;
+}
+
+/* RELATIVE */
+.relative {
+  border: 1px solid chartreuse;
+  width: 300px;
+  padding: 16px 0;
+  position: relative;
+  left: 30px;
+  /* top: 80px; */
+}
+
+/* ABSOLUTE */
+
+.relative-2 {
+  /* top: 200px; */
+  position: relative;
+  width: 800px;
+  height: 200px;
+  border: 3px solid blueviolet;
+}
+
+.absolute {
+  position: absolute;
+  border: 3px solid blueviolet;
+  height: 100px;
+  /* top: 100px;
+  left: 96px; */
+}
+
+/* STICKY */
+
+.stickybox {
+  margin: 20px 0;
+  width: 50%;
+  height: 150px;
+  border: 2px solid magenta;
+  overflow: scroll;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid orangered;
+}
+
+.sticky-2 {
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  background-color: bisque;
+  border: 2px solid orangered;
+}
+
+/* FIXED */
+
+.fixedbox {
+  height: 1000px;
+  border: 2px solid blue;
+}
+
+.fixed {
+  position: fixed;
+  background-color: papayawhip;
+  border: 2px solid green;
+  top: 100px;
+  left: 10px;
+}
+
+/* Z-INDEX */
+
+.index {
+  height: 250px;
+  width: 250px;
+  border: 2px solid;
+  margin: 0 auto;
+}
+
+.top {
+  background-color: tomato;
+  position: relative;
+  z-index: 1;
+}
+
+.bottom {
+  background-color: powderblue;
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+  opacity: 0.5;
+}

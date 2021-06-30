@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Review</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- relative -->
+    <h2>Relative</h2>
+    <p>
+      an element with <code>position: relative</code> is positioned RELATIVE to
+      it's normal position.
+    </p>
+    <div class="relative">
+      This <code>div</code> has <code>position: relative</code>
+    </div>
+
+    <!-- ABSOLUTE -->
+    <h2>position-absolute</h2>
+    <p>
+      An element with <code>position: absolute</code> is positioned relative to
+      it's NEAREST POSITIONED ANCESTOR
+    </p>
+
+    <div class="relative-2">
+      This div element has <code>position: relative</code>
+      <div class="absolute">this div has <code>position: absolute</code></div>
+    </div>
+
+    <!-- STICKY -->
+    <h2>position - sticky</h2>
+    <p>
+      Allows a positioned element to act like it is relatively positioned UNTIL
+      it is scrolled to a certain threshold point (e.g. 10px fro the top of the
+      viewport), after which it becomes fixed
+    </p>
+    <div class="stickybox">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        nesciunt quod vero! Nisi voluptate sunt explicabo tempore cum hic
+        consequuntur doloribus! Nobis praesentium officiis cum quis dolores
+        laboriosam culpa sed? Sequi dolores cum hic asperiores itaque tempore
+        illo quaerat rem necessitatibus corporis facilis ullam aliquid nostrum,
+        beatae, dolore praesentium illum dolorem maiores placeat commodi nihil
+        accusantium. Corporis soluta deleniti consequuntur? Ab, rerum
+        perferendis veniam culpa atque rem voluptatibus cupiditate est debitis.
+        Ratione, quos. Voluptatum, provident, sit perspiciatis sunt iusto
+        voluptatem repudiandae debitis, odit quia dicta libero quas modi
+        cupiditate totam. Aut consectetur laudantium expedita magni quidem eius
+        ullam, suscipit corporis totam neque! Illum quia aliquid ratione
+        voluptate? Deserunt est quaerat commodi? Temporibus tempore perferendis
+        provident ullam, harum quo libero consequatur!
+      </p>
+      <div class="sticky-2">
+        <code>position: sticky</code>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        consequatur fuga non praesentium quibusdam odit beatae aspernatur,
+        nesciunt ipsum corrupti veniam aperiam cumque possimus rerum delectus
+        modi nobis obcaecati! Animi? Odit cum, voluptate quod sequi dicta
+        laborum exercitationem nulla sint nesciunt molestias laudantium
+        repellendus iusto facere optio assumenda sunt quia recusandae quos
+        voluptatum esse. Sit, dolorem dignissimos? Deleniti, dignissimos
+        voluptas!
+      </p>
+      <div class="sticky">
+        <code>position: sticky</code>
+      </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        nesciunt quod vero! Nisi voluptate sunt explicabo tempore cum hic
+        consequuntur doloribus! Nobis praesentium officiis cum quis dolores
+        laboriosam culpa sed? Sequi dolores cum hic asperiores itaque tempore
+        illo quaerat rem necessitatibus corporis facilis ullam aliquid nostrum,
+        beatae, dolore praesentium illum dolorem maiores placeat commodi nihil
+        accusantium. Corporis soluta deleniti consequuntur? Ab, rerum
+        perferendis veniam culpa atque rem voluptatibus cupiditate est debitis.
+        Ratione, quos. Voluptatum, provident, sit perspiciatis sunt iusto
+        voluptatem repudiandae debitis, odit quia dicta libero quas modi
+        cupiditate totam. Aut consectetur laudantium expedita magni quidem eius
+        ullam, suscipit corporis totam neque! Illum quia aliquid ratione
+        voluptate? Deserunt est quaerat commodi? Temporibus tempore perferendis
+        provident ullam, harum quo libero consequatur!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        consequatur fuga non praesentium quibusdam odit beatae aspernatur,
+        nesciunt ipsum corrupti veniam aperiam cumque possimus rerum delectus
+        modi nobis obcaecati! Animi? Odit cum, voluptate quod sequi dicta
+        laborum exercitationem nulla sint nesciunt molestias laudantium
+        repellendus iusto facere optio assumenda sunt quia recusandae quos
+        voluptatum esse. Sit, dolorem dignissimos? Deleniti, dignissimos
+        voluptas!
+      </p>
+    </div>
+
+    <!-- FIXED -->
+
+    <h2>position - fixed</h2>
+
+    <p>
+      Fixed positioning sets an element at a specific location on the screen
+      that will NOT scroll with the page
+    </p>
+
+    <div class="fixedbox">
+      <p class="fixed">
+        <code>position: fixed</code>
+      </p>
+    </div>
+
+    <!-- Z-INDEX -->
+
+    <h2>z-index</h2>
+    <p>
+      The <code>z-index</code> controls the vertical stacking order of elements
+      that overlap
+    </p>
+    <div class="index top"></div>
+    <div class="index bottom"></div>
+  </body>
+</html>
